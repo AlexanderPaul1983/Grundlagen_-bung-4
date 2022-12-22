@@ -1,0 +1,49 @@
+.topBox {
+    display: flex;
+    width: auto;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+    
+}
+.middelBox {
+    display: flex;
+    background-color: blueviolet;
+    width: auto;
+    height: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+.bottomBox {
+    display: flex;
+    background-color:red;
+    width: auto;
+    height: 80px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.middelBox .Subnavi {
+    background-color: green;
+    flex: 1;
+    text-align: center;
+    animation: backwards;
+}
+.middelBox .bigcontainer {
+    flex: 3;
+    background-color: aqua;
+    text-align: center;
+    
+}
+.topBox .Logocontainer {
+    background-color: yellow;
+    flex: 1;
+    text-align: center;
+}
+.topBox .Maincontainer {
+    background-color: blue;
+    flex: 3;
+    text-align: center;
+}
